@@ -6,7 +6,7 @@ const factorial = (n) => {
     else {
         return n * factorial(n - 1)
     }
-}
+};
 document.getElementById('factorialSubmitButton').addEventListener('click', () => {
     const int = document.getElementById('exampleInputEmail1').value;
     document.getElementById('outputInt').textContent = 'Output: ' + factorial(int);
